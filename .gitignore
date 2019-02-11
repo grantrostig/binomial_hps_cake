@@ -1,6 +1,10 @@
 # This file is used to ignore files which are generated
 # ----------------------------------------------------------------------------
 
+# some cmake stuff to ignore
+build/
+CMakeLists.txt.user
+
 *~
 *.autosave
 *.a

@@ -1,9 +1,8 @@
-#include <iostream>
-
-using namespace std;
+#include <hpx/hpx_main.hpp>
+#include <hpx/include/iostreams.hpp>
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    hpx::cout << "Hello World!" << hpx::endl;
     return 0;
 }
