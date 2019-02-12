@@ -1,0 +1,10 @@
+Starting to parse CMake project.
+Using tcmalloc allocator.
+Configuring done
+CMake Error at /home/grostig/libs/lib64/cmake/HPX/HPX_AddExecutable.cmake:135 (add_executable):
+  No SOURCES given to target: binomial_hpx_cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:21 (add_hpx_executable)
+
+
+CMake Project parsing failed.
