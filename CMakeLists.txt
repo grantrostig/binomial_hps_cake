@@ -10,6 +10,10 @@ include_directories(/home/grostig/libs/include)
 project(binomial_hpx_cmake)
 find_package(HPX REQUIRED)
 
+# here are some guesses I'm making???
+# add_library( IMPORTED_LIBNAME = ??)
+# target_link_libraries( )
+
 # the addition of  ::COMPONENT_DEPENDENCIES iostreams:: causes cmake error or: Cannot find source file, and No SOURCES given to target:binomial_hpx_make
 add_executable(${PROJECT_NAME} "main.cpp" COMPONENT_DEPENDENCIES iostreams)
 # add_executable(${PROJECT_NAME} "main.cpp" )
